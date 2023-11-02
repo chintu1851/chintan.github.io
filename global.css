@@ -1,0 +1,228 @@
+/* Styling for the header image */
+header img {
+  display: block;
+  height: 300px;
+  width: 300px;
+  border-radius: 70%;
+  margin: 10px;
+  margin-top: 35px;
+}
+
+/* Resetting body margin and setting width */
+body {
+  margin: 0%;
+  width: 100vw;
+}
+
+/* Hover effect for anchor tags */
+a:hover {
+  background-color: rgb(89, 122, 121);
+}
+
+/* Styling for the header section */
+header {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 100vw;
+}
+
+/* Styling for the profile within the header */
+.profile {
+  background-color: #282828e9;
+  flex: 10%;
+  display: block;
+  height: 100vh;
+}
+
+/* Styling for the navigation menu */
+nav ul {
+  margin-left: 70px;
+  margin-top: 30px;
+}
+
+/* Styling for navigation list items */
+nav li {
+  color: rgb(244, 244, 250);
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+/* Styling for mybackground within the header */
+#mybackground {
+  background-image: url("assests/n-n-BtbjCFUvBXs-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 6%, 91%);
+  flex: 90%;
+  display: block;
+  position: relative;
+  height: 100vh;
+}
+
+/* Styling for mybackground within introduction */
+.introduction {
+  text-align: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  margin-left: 200px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 700px;
+  margin-top: 320px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for mybackground headings */
+.introduction h1 {
+  font-size: 28px;
+  color: #315cfa;
+  margin-bottom: 10px;
+}
+
+.introduction h2 {
+  color: #4f4f4f;
+  margin-bottom: 10px;
+}
+
+.introduction aside {
+  color: #006a13f4;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Styling for aboutme (About Section) */
+.aboutme {
+  height: 42vw;
+  width: 100vw;
+  background-color: rgb(202, 202, 202);
+  padding-top: 1px;
+}
+
+/* Styling for detailssection section */
+#detailssection {
+  flex-direction: row;
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+/* Styling for about headings */
+.abouttitle {
+  padding-top: 25px;
+  text-align: center;
+  font-size: 45px;
+  margin-top: 40px;
+  font-family: 'Dancing Script', cursive;
+  color: #1545f5;
+}
+
+/* Styling for personalinfo section */
+.personalinfo {
+  display: block;
+  height: 20vw;
+  width: 40vw;
+  background-color: rgb(245, 249, 253);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-right: 60px;
+  padding: 5px;
+}
+
+/* Styling for skills section */
+.skills {
+  display: block;
+  height: 20vw;
+  width: 40vw;
+  background-color: rgb(245, 249, 253);
+  margin-left: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+}
+
+/* Styling for article section */
+article {
+  font-size: 20px;
+  color: #333;
+  line-height: 1.5;
+  flex: 2;
+  padding: 20px;
+  background-color: #e4e4e4;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin-left: 100px;
+  margin-right: 100px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.5em;
+  padding-bottom: 15px;
+  position: relative;
+}
+
+/* Styling for personalinfo list items */
+.personalinfo ol {
+  margin: 10px;
+}
+
+.personalinfo li {
+  font-size: 18px;
+  color: #212121;
+  margin: 20px 20px;
+  transition: color 0.3s ease;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Styling for skills list items */
+.skills ol {
+  margin: 10px;
+}
+
+.skills li {
+  font-size: 18px;
+  color: #212121;
+  margin: 20px 0px;
+  transition: color 0.3s ease;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Styling for educationsection (Education Section) */
+.educationsection {
+  height: 60vw;
+  width: 100vw;
+  background-color: rgb(202, 202, 202);
+}
+
+/* Styling for education section */
+.education {
+  display: block;
+  margin-left: 150px;
+  height: 42vw;
+  width: 80vw;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(245, 249, 253);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+}
+
+/* Styling for education list items */
+.education li {
+  font-size: 18px;
+  color: #212121;
+  margin: 20px 30px;
+  transition: color 0.3s ease;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: square;
+}
+
+/* Styling for the footer section */
+footer {
+  background-color: #505050;
+  color: white;
+}
